@@ -17,3 +17,10 @@ function findMin(numbers) {
   return Math.min(...numbers);
 }
 console.log(findMin(numbers))
+
+// Write a function named filterEvenNumbers that takes an array of numbers and returns a new array containing only the even numbers.
+const arrayOfNumbers = [158465,384613,14466,389746,16544163,698466,8979846,741651635,365698469,897756419,951648]
+function filterEvenNumbers (arrayOfNumbers){
+  return arrayOfNumbers.filter(evenNumbers => evenNumbers % 2 ===0)
+}
+console.log(filterEvenNumbers(arrayOfNumbers))
