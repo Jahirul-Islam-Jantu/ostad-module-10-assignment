@@ -24,3 +24,12 @@ function filterEvenNumbers (arrayOfNumbers){
   return arrayOfNumbers.filter(evenNumbers => evenNumbers % 2 ===0)
 }
 console.log(filterEvenNumbers(arrayOfNumbers))
+
+// Write a function named sortArrayDescending that takes an array of numbers and returns a new array sorted in descending order.
+
+
+// Write a function named lowercaseFirstLetter that takes a string and returns the same string with the first letter lowercased.
+
+// Write a function named countVowels that takes a string and returns the number of vowels (a, e, i, o, u, A, E, I, O, U) in the string. It should filter vowels from the string.
+
+// Write a function named findAverage that takes an array of numbers and returns the average of all elements.
