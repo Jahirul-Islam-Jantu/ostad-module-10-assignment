@@ -41,6 +41,14 @@ console.log('sorted in descending order: ', sortedNumbers)
 
 // Write a function named lowercaseFirstLetter that takes a string and returns the same string with the first letter lowercased.
 
+const letters = 'Hello'
+
+function lowercaseFirstLetter(str){
+  return str.charAt(0).toLowerCase() + str.slice(1)
+}
+const lettersLowerCase = lowercaseFirstLetter(letters)
+console.log(lettersLowerCase)
+
 // Write a function named countVowels that takes a string and returns the number of vowels (a, e, i, o, u, A, E, I, O, U) in the string. It should filter vowels from the string.
 
 // Write a function named findAverage that takes an array of numbers and returns the average of all elements.
