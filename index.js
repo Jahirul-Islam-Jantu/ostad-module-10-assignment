@@ -27,6 +27,17 @@ console.log(filterEvenNumbers(arrayOfNumbers))
 
 // Write a function named sortArrayDescending that takes an array of numbers and returns a new array sorted in descending order.
 
+const numbersArray = [3531, 4145, 478, 545, 45, 6587, 657416, 54]
+function sortArrayDescending(arr){
+  arr.sort((a , b)=>{
+  return b - a;
+})
+return arr;
+}
+ const sortedNumbers = sortArrayDescending(numbersArray);
+
+
+console.log('sorted in descending order: ', sortedNumbers)
 
 // Write a function named lowercaseFirstLetter that takes a string and returns the same string with the first letter lowercased.
 
