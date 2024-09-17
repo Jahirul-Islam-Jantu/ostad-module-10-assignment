@@ -50,5 +50,13 @@ const lettersLowerCase = lowercaseFirstLetter(letters)
 console.log(lettersLowerCase)
 
 // Write a function named countVowels that takes a string and returns the number of vowels (a, e, i, o, u, A, E, I, O, U) in the string. It should filter vowels from the string.
+const str = "I am from Bangladesh"
+function countVowels(str){
+const vowels = 'aeiouAEIOU'
+const vowelCount = str.split('').filter(char => vowels.includes(char)).length
+return vowelCount
+}
+const findVowels = countVowels(str)
+console.log(normalLetters)
 
 // Write a function named findAverage that takes an array of numbers and returns the average of all elements.
