@@ -57,7 +57,7 @@
     return vowelCount
     }
     const findVowels = countVowels(str)
-    console.log(normalLetters)
+    console.log(findVowels)
 
 // Write a function named findAverage that takes an array of numbers and returns the average of all elements.
 
@@ -69,5 +69,5 @@
 
       return sum / arr.length;
     }
-    const findAverage = findAverage(numbersToFindAverage)
-    console.log(findAverage)
+    const findAverageNumbers = findAverage(numbersToFindAverage)
+    console.log(findAverageNumbers)
